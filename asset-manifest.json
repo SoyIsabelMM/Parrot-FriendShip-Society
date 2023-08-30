@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Parrot-FriendShip-Society/static/css/main.c85268af.css",
+    "main.js": "/Parrot-FriendShip-Society/static/js/main.aec2e27c.js",
+    "static/media/404.svg": "/Parrot-FriendShip-Society/static/media/404.b3a76b8613197d297d1464092efa32f2.svg",
+    "static/media/birdss.svg": "/Parrot-FriendShip-Society/static/media/birdss.5cc53154239289fc066f698a2386e8ac.svg",
+    "index.html": "/Parrot-FriendShip-Society/index.html",
+    "main.c85268af.css.map": "/Parrot-FriendShip-Society/static/css/main.c85268af.css.map",
+    "main.aec2e27c.js.map": "/Parrot-FriendShip-Society/static/js/main.aec2e27c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c85268af.css",
+    "static/js/main.aec2e27c.js"
+  ]
+}
