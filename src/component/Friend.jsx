@@ -19,8 +19,19 @@ function Friend(props) {
         <div className="friend__details">
           <h3 className="friend__name"> {friend.name} </h3>
           <p className="friend__location"> Location: {friend.location} </p>
+          <p className="friend__quantity">
+            Número de pájaros: {friend.parrotsOwned.length}
+          </p>
+          <p className="friend__fav-quote">
+            Cita favorita sobre pájaros: {friend.favBirdQuote}
+          </p>
         </div>
       </div>
+
+      <button
+        className="button button_type_back"
+        onClick={() => history.goBack()}
+      ></button>
     </div>
   );
 }
