@@ -4,6 +4,7 @@ import serverData from "../utils/serverData";
 import Dashboard from "./Dashboard";
 import Friends from "./Friends";
 import Friend from "./Friend";
+import PageNotFound from "./PageNotFound";
 
 function App() {
   return (
@@ -38,6 +39,10 @@ function App() {
 
         <Route path="/friends/:id">
           <Friend serverData={serverData} />
+        </Route>
+
+        <Route path="*">
+          <PageNotFound />
         </Route>
       </Switch>
     </div>
